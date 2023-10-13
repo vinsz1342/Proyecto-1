@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.Encabezado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(8, 8, 8);
+  background: linear-gradient(
+    90deg,
+    rgba(8, 8, 8, 1) 0%,
+    rgba(9, 9, 121, 1) 27%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding: 10px 20px;
+  font-size: larger;
+}
+.Liste {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.Liste li {
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.Liste li:hover {
+  color: red;
+}
+.presentacion {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  gap: 20px;
+  font-size: x-large;
+}
+img {
+  height: 50%;
+  width: 50%;
+}
+
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(
+    rgba(8, 8, 8, 1) 0%,
+    rgba(9, 9, 121, 1) 27%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.cartas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background: rgb(8, 8, 8);
+  background: linear-gradient(
+    90deg,
+    rgba(8, 8, 8, 1) 0%,
+    rgba(9, 9, 121, 1) 27%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding: 50px;
+}
+.trabajo {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px black solid;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 360px;
+  max-height: 450px;
+  flex: 1;
+  margin: 5px;
+  height: auto;
+  gap: 10px;
+}
+.estudio {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px black solid;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 360px;
+  max-height: 450px;
+  flex: 1;
+  margin: 5px;
+  height: auto;
+  gap: 10px;
+}
+.hobbi {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px black solid;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 360px;
+  max-height: 450px;
+  flex: 1;
+  margin: 5px;
+  height: auto;
+  gap: 10px;
+}
+h2 {
+  background: -webkit-linear-gradient(
+    rgba(8, 8, 8, 1) 0%,
+    rgba(9, 9, 121, 1) 27%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
